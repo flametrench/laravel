@@ -4,12 +4,12 @@ Laravel adapter for [Flametrench](https://github.com/flametrench/spec) — wires
 
 ## Status
 
-Pre-release scaffold. Targets Laravel 11+ on PHP 8.3+. Spec tracking [v0.2.0-rc.4](https://github.com/flametrench/spec/releases).
+Pre-release scaffold. Targets Laravel 11+ on PHP 8.3+. Spec tracking [v0.2.0](https://github.com/flametrench/spec/releases).
 
 ## Install
 
 ```bash
-composer require flametrench/laravel:^0.2.0-rc
+composer require flametrench/laravel:^0.2.0
 ```
 
 The package auto-registers `Flametrench\Laravel\FlametrenchServiceProvider` and the `Flametrench` facade alias via Laravel's package discovery.
