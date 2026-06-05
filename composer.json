@@ -15,10 +15,10 @@
         "php": "^8.3",
         "illuminate/contracts": "^11.0|^12.0|^13.0",
         "illuminate/support": "^11.0|^12.0|^13.0",
-        "flametrench/ids": "^0.2.0",
-        "flametrench/identity": "^0.2.0",
-        "flametrench/tenancy": "^0.2.0",
-        "flametrench/authz": "^0.2.0"
+        "flametrench/ids": "^0.3.0",
+        "flametrench/identity": "^0.3.0",
+        "flametrench/tenancy": "^0.3.0",
+        "flametrench/authz": "^0.3.0"
     },
     "require-dev": {
         "orchestra/testbench": "^9.0|^10.0|^11.0",
@@ -57,9 +57,9 @@
         }
     },
     "repositories": [
-        { "type": "path", "url": "../ids-php",      "options": { "symlink": false, "versions": { "flametrench/ids":      "0.2.0-rc.99" } } },
-        { "type": "path", "url": "../identity-php", "options": { "symlink": false, "versions": { "flametrench/identity": "0.2.0-rc.99" } } },
-        { "type": "path", "url": "../tenancy-php",  "options": { "symlink": false, "versions": { "flametrench/tenancy":  "0.2.0-rc.99" } } },
-        { "type": "path", "url": "../authz-php",    "options": { "symlink": false, "versions": { "flametrench/authz":    "0.2.0-rc.99" } } }
+        { "type": "path", "url": "../ids-php",      "options": { "symlink": false, "versions": { "flametrench/ids":      "0.3.0-rc.99" } } },
+        { "type": "path", "url": "../identity-php", "options": { "symlink": false, "versions": { "flametrench/identity": "0.3.0-rc.99" } } },
+        { "type": "path", "url": "../tenancy-php",  "options": { "symlink": false, "versions": { "flametrench/tenancy":  "0.3.0-rc.99" } } },
+        { "type": "path", "url": "../authz-php",    "options": { "symlink": false, "versions": { "flametrench/authz":    "0.3.0-rc.99" } } }
     ]
 }
